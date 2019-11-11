@@ -1,0 +1,50 @@
+ Intel-MPI is in your path. This is adequate for compiling and running most
+codes. Source the
+/util/academic/intel/18.3/compilers_and_libraries_2018.3.222/linux/mpi/intel64/bin/mpivars.sh
+file for more features. 
+Fatal error in MPI_Init: Internal MPI error!, error stack:
+MPIR_Init_thread(805): fail failed
+MPID_Init(1859)......: channel initialization failed
+MPIDI_CH3_Init(147)..: fail failed
+(unknown)(): Internal MPI error!
+In: PMI_Abort(68204816, Fatal error in MPI_Init: Internal MPI error!, error stack:
+MPIR_Init_thread(805): fail failed
+MPID_Init(1859)......: channel initialization failed
+MPIDI_CH3_Init(147)..: fail failed
+(unknown)(): Internal MPI error!)
+Fatal error in MPI_Init: Internal MPI error!, error stack:
+MPIR_Init_thread(805): fail failed
+MPID_Init(1859)......: channel initialization failed
+MPIDI_CH3_Init(147)..: fail failed
+(unknown)(): Internal MPI error!
+In: PMI_Abort(68204816, Fatal error in MPI_Init: Internal MPI error!, error stack:
+MPIR_Init_thread(805): fail failed
+MPID_Init(1859)......: channel initialization failed
+MPIDI_CH3_Init(147)..: fail failed
+(unknown)(): Internal MPI error!)
+Fatal error in MPI_Init: Internal MPI error!, error stack:
+MPIR_Init_thread(805): fail failed
+MPID_Init(1859)......: channel initialization failed
+MPIDI_CH3_Init(147)..: fail failed
+(unknown)(): Internal MPI error!
+In: PMI_Abort(68204816, Fatal error in MPI_Init: Internal MPI error!, error stack:
+MPIR_Init_thread(805): fail failed
+MPID_Init(1859)......: channel initialization failed
+MPIDI_CH3_Init(147)..: fail failed
+(unknown)(): Internal MPI error!)
+Fatal error in MPI_Init: Internal MPI error!, error stack:
+MPIR_Init_thread(805): fail failed
+MPID_Init(1859)......: channel initialization failed
+MPIDI_CH3_Init(147)..: fail failed
+(unknown)(): Internal MPI error!
+In: PMI_Abort(68204816, Fatal error in MPI_Init: Internal MPI error!, error stack:
+MPIR_Init_thread(805): fail failed
+MPID_Init(1859)......: channel initialization failed
+MPIDI_CH3_Init(147)..: fail failed
+(unknown)(): Internal MPI error!)
+slurmstepd: error: *** STEP 315234.0 ON cpn-k08-34-01 CANCELLED AT 2019-11-10T23:27:16 ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: cpn-k08-34-01: task 0: Exited with exit code 16
+srun: Terminating job step 315234.0
+srun: error: cpn-k08-34-02: tasks 2-3: Exited with exit code 16
+srun: error: cpn-k08-34-01: task 1: Killed

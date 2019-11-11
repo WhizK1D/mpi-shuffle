@@ -1,0 +1,36 @@
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=198d5e0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=15d25e0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=11725e0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=1e6a5e0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=22105e0
+[0] MPI startup(): Multi-threaded optimized library
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=19e85e0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=13755e0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=a755e0
+[1] MPI startup(): shm and tmi data transfer modes
+[5] MPI startup(): shm and tmi data transfer modes
+[2] MPI startup(): shm and tmi data transfer modes
+[6] MPI startup(): shm and tmi data transfer modes
+[3] MPI startup(): shm and tmi data transfer modes
+[7] MPI startup(): shm and tmi data transfer modes
+[4] MPI startup(): shm and tmi data transfer modes
+[0] MPI startup(): shm and tmi data transfer modes
+[0] MPI startup(): Rank    Pid      Node name                           Pin cpu
+[0] MPI startup(): 0       7720     cpn-k08-40-01.cbls.ccr.buffalo.edu  +1
+[0] MPI startup(): 1       7721     cpn-k08-40-01.cbls.ccr.buffalo.edu  +1
+[0] MPI startup(): 2       7722     cpn-k08-40-01.cbls.ccr.buffalo.edu  +1
+[0] MPI startup(): 3       7723     cpn-k08-40-01.cbls.ccr.buffalo.edu  +1
+[0] MPI startup(): 4       9167     cpn-k08-41-01.cbls.ccr.buffalo.edu  +1
+[0] MPI startup(): 5       9168     cpn-k08-41-01.cbls.ccr.buffalo.edu  +1
+[0] MPI startup(): 6       9169     cpn-k08-41-01.cbls.ccr.buffalo.edu  +1
+[0] MPI startup(): 7       9170     cpn-k08-41-01.cbls.ccr.buffalo.edu  +1
+Processor [4] has received first element as 32 
+Processor [5] has received first element as 256 
+Processor [6] has received first element as 184 
+Processor [1] has received first element as 16 
+Processor [2] has received first element as 200 
+Processor [3] has received first element as 232 
+Processor [0] has received first element as 256 
+Processor [7] has received first element as 168 
+p: 8
+Tp: 308.345

@@ -1,0 +1,26 @@
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=13ae5e0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=17735e0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=24135e0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=bbb5e0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=1b6b5e0
+[0] MPI startup(): Multi-threaded optimized library
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=21635e0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=6905e0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=17225e0
+[1] MPI startup(): shm and tmi data transfer modes
+[5] MPI startup(): shm and tmi data transfer modes
+[2] MPI startup(): shm and tmi data transfer modes
+[6] MPI startup(): shm and tmi data transfer modes
+[3] MPI startup(): shm and tmi data transfer modes
+[7] MPI startup(): shm and tmi data transfer modes
+[0] MPI startup(): shm and tmi data transfer modes
+[4] MPI startup(): shm and tmi data transfer modes
+[0] MPI startup(): Rank    Pid      Node name                           Pin cpu
+[0] MPI startup(): 0       6297     cpn-k08-40-01.cbls.ccr.buffalo.edu  +1
+[0] MPI startup(): 1       6298     cpn-k08-40-01.cbls.ccr.buffalo.edu  +1
+[0] MPI startup(): 2       6299     cpn-k08-40-01.cbls.ccr.buffalo.edu  +1
+[0] MPI startup(): 3       6300     cpn-k08-40-01.cbls.ccr.buffalo.edu  +1
+[0] MPI startup(): 4       8078     cpn-k08-41-01.cbls.ccr.buffalo.edu  +1
+[0] MPI startup(): 5       8079     cpn-k08-41-01.cbls.ccr.buffalo.edu  +1
+[0] MPI startup(): 6       8080     cpn-k08-41-01.cbls.ccr.buffalo.edu  +1
+[0] MPI startup(): 7       8081     cpn-k08-41-01.cbls.ccr.buffalo.edu  +1

@@ -1,0 +1,24 @@
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=1e435e0
+[0] MPI startup(): Multi-threaded optimized library
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=f615e0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=aee5e0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=12b95e0
+[3] MPID_nem_ofacm_init(): Init
+[1] MPID_nem_ofacm_init(): Init
+[0] MPID_nem_ofacm_init(): Init
+[2] MPID_nem_ofacm_init(): Init
+[0] MPI startup(): ofa data transfer mode
+[1] MPI startup(): ofa data transfer mode
+[2] MPI startup(): ofa data transfer mode
+[3] MPI startup(): ofa data transfer mode
+[0] MPI startup(): Rank    Pid      Node name                        Pin cpu
+[0] MPI startup(): 0       14852    cpn-f16-16.cbls.ccr.buffalo.edu  +1
+[0] MPI startup(): 1       27581    cpn-f16-18.cbls.ccr.buffalo.edu  +1
+[0] MPI startup(): 2       9313     cpn-f16-19.cbls.ccr.buffalo.edu  +1
+[0] MPI startup(): 3       11788    cpn-f16-24.cbls.ccr.buffalo.edu  +1
+Processor [1] has received first element as 84 
+Processor [0] has received first element as 184 
+p: 4
+Tp: 178.238
+Processor [2] has received first element as 144 
+Processor [3] has received first element as 100 

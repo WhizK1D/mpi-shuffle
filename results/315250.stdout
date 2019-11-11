@@ -1,0 +1,18 @@
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=1f9e5e0
+[0] MPI startup(): Multi-threaded optimized library
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=20b35e0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=19d35e0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=22bc5e0
+[0] MPID_nem_ofacm_init(): Init
+[2] MPID_nem_ofacm_init(): Init
+[1] MPID_nem_ofacm_init(): Init
+[3] MPID_nem_ofacm_init(): Init
+[0] MPI startup(): ofa data transfer mode
+[1] MPI startup(): ofa data transfer mode
+[2] MPI startup(): ofa data transfer mode
+[3] MPI startup(): ofa data transfer mode
+[0] MPI startup(): Rank    Pid      Node name                        Pin cpu
+[0] MPI startup(): 0       36720    cpn-f16-04.cbls.ccr.buffalo.edu  +1
+[0] MPI startup(): 1       47294    cpn-f16-05.cbls.ccr.buffalo.edu  +1
+[0] MPI startup(): 2       30188    cpn-f16-09.cbls.ccr.buffalo.edu  +1
+[0] MPI startup(): 3       26689    cpn-f16-11.cbls.ccr.buffalo.edu  +1

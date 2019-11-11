@@ -1,0 +1,9 @@
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=8be5e0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=1a555e0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=1c8f5e0
+[0] MPI startup(): Multi-threaded optimized library
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=cfb5e0
+[0] MPI startup(): shm and tmi data transfer modes
+[2] MPI startup(): shm and tmi data transfer modes
+[1] MPI startup(): shm and tmi data transfer modes
+[3] MPI startup(): shm and tmi data transfer modes

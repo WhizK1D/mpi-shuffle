@@ -1,0 +1,20 @@
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=175e5e0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=1b645e0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=16c75e0
+[0] MPI startup(): Multi-threaded optimized library
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=203f5e0
+[0] MPI startup(): shm and tmi data transfer modes
+[2] MPI startup(): shm and tmi data transfer modes
+[1] MPI startup(): shm and tmi data transfer modes
+[3] MPI startup(): shm and tmi data transfer modes
+[0] MPI startup(): Rank    Pid      Node name                           Pin cpu
+[0] MPI startup(): 0       10810    cpn-k08-40-01.cbls.ccr.buffalo.edu  +1
+[0] MPI startup(): 1       10811    cpn-k08-40-01.cbls.ccr.buffalo.edu  +1
+[0] MPI startup(): 2       12045    cpn-k08-41-01.cbls.ccr.buffalo.edu  +1
+[0] MPI startup(): 3       12046    cpn-k08-41-01.cbls.ccr.buffalo.edu  +1
+Processor [2] has received first element as 144 
+Processor [1] has received first element as 84 
+Processor [0] has received first element as 184 
+Processor [3] has received first element as 100 
+p: 4
+Tp: 149.517
