@@ -42,26 +42,10 @@ void mpi_shuffle(std::vector<T>& inout, Hash hash, MPI_Datatype Type, MPI_Comm C
     std::vector<int> countVec(size, 0);
     std::vector<int> displacementVec(size, 0);
     std::vector<int> recCountVec(size, 0);
+
     int totalRecCount = 0;
     int totalSendCount = 0;
 
-/*
-    --- Possibly useless code ---
-    n = inout.size();
-    int rem = n % size;
-    int quotient = n/size;
-
-    if(rank < rem)
-    {
-        start = rank * (quotient + 1);
-        stop = start + quotient;
-    }
-    else
-    {
-        start = rank * quotient + rem;
-        stop = start + (quotient -1);
-    }
-*/
 
     // 1. Print length of each processor's inout
     std::cout << "[" << rank << "] Length of inout: " << inout.size() << "\n";
@@ -77,7 +61,7 @@ void mpi_shuffle(std::vector<T>& inout, Hash hash, MPI_Datatype Type, MPI_Comm C
     }
 
     // Below for-loop prints the number of items each processor has for other processors
-    for(int i = 0; i < countVec.size(); i++)
+    for(int i = 0; i < size; i++)
     {
         std::cout << " Proc [" << rank << "] has " << countVec[i] << " elements for Proc [" << i << "]\n";
     }
@@ -108,7 +92,7 @@ void mpi_shuffle(std::vector<T>& inout, Hash hash, MPI_Datatype Type, MPI_Comm C
     }
     for(int i = 0; i < displacementVec.size(); i++)
     {
-        std::cout << " Proc [" << rank << "] has elements at " << displacementVec[i] << " for Proc [" << i << "]\n";
+        std::cout << "Proc [" << rank << "] has elements at " << displacementVec[i] << " for Proc [" << i << "]\n";
     }
     MPI_Barrier(Comm); // DEBUG: Step 4
     //TODO: Merge for-loops in Step 2 and Step 4 into one
@@ -154,6 +138,19 @@ void mpi_shuffle(std::vector<T>& inout, Hash hash, MPI_Datatype Type, MPI_Comm C
     MPI_Barrier(Comm);
 
     // TODO: Check if new buffer is needed for alltoallv and perform alltoallv()
+
+    std::vector<T> recVector (totalRecCount, 0);
+
+    int *recCountArr = &recCountVec[0];
+    int *sendCountArr = &countVec[0];
+    int *sendDispArr = &displacementVec[0];
+    int *recDispArr = &recDisplacement[0];
+
+    // TODO: Resolve bug for segfault
+    MPI_Alltoallv(&inout, sendCountArr, sendDispArr, MPI_INT,
+        &recVector, recCountArr, recDispArr, MPI_INT, Comm);
+
+    std::cout << "Processor [" << rank << "] has received first element as " << recVector[0];
 } // mpi_shuffle
 
 #endif // A1_HPP
